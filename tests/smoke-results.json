@@ -1,0 +1,11 @@
+{
+  "protected_routes_checked": 34,
+  "swagger": "passed",
+  "input_validation": "passed",
+  "invalid_jwt": "passed",
+  "missing_database": "503 as expected",
+  "public_qr_route": "passed without database",
+  "cors": "passed",
+  "login_rate_limit": "passed",
+  "sql_integration": "NOT RUN"
+}

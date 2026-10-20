@@ -1,0 +1,107 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/.env
+**/.env.production
+.vs/
+*.user
+# =========================================
+# Visual Studio / .NET
+# =========================================
+.vs/
+.vscode/
+.idea/
+
+bin/
+obj/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build / publish
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+publish/
+artifacts/
+
+# ASP.NET local secrets/config
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+
+# User secrets
+secrets.json
+
+# =========================================
+# Node.js / React / Vite
+# =========================================
+node_modules/
+client/node_modules/
+
+client/dist/
+client/.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================
+# Environment files
+# =========================================
+.env
+.env.local
+.env.*.local
+
+client/.env
+client/.env.local
+client/.env.production
+client/.env.production.local
+
+# Keep example environment files
+!.env.example
+!client/.env.example
+!client/.env.production.example
+
+# =========================================
+# Logs
+# =========================================
+*.log
+logs/
+
+# =========================================
+# OS files
+# =========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================
+# Temporary files
+# =========================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# =========================================
+# SQL Server database files
+# =========================================
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+
+# =========================================
+# ZIP / temporary archives
+# =========================================
+*.zip
+*.rar
+*.7z
